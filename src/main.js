@@ -6,7 +6,7 @@
 let left = document.querySelector("#left");
 let style = document.querySelector("#style");
 let n = 0;
-let showCode = `/**HLZ,我要在线给你制作一个爱心！睁大你的眼睛看好了!**/
+let showCode = `/**表白神器第一版**/
 
 /*将容器左右分开，左边放代码展示，右边放效果*/  
 #container #left {
@@ -139,7 +139,7 @@ let step = () => {
     } else {
       return false;
     }
-  }, 50);
+  }, 99);
 };
 
 step();
